@@ -1,0 +1,4 @@
+Um ficheiro de texto com
+caracteres acentuados.
+áéíóú
+ãẽĩõũ
