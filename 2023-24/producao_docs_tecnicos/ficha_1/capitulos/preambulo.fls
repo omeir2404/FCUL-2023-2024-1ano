@@ -1,0 +1,23 @@
+PWD /Users/gh/Desktop/FCUL-2023-2024-1ano/2023-24/producao_docs_tecnicos/ficha 1/capitulos
+INPUT /usr/local/texlive/2023/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/gh/Desktop/FCUL-2023-2024-1ano/2023-24/producao_docs_tecnicos/ficha 1/capitulos/preambulo.tex
+OUTPUT preambulo.log
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
