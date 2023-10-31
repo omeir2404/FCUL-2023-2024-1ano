@@ -57,8 +57,7 @@ public class Triangles {
 	 * @param symbol character to be printed
 	 * @requires {@code n > 0}
 	 */
-    public static String generateSequence(int n, char c)
-	{
+    public static String generateSequence(int n, char c) {
         StringBuilder sb = new StringBuilder();
         for (int i = 1; i <= n; i++) {
             sb.append(c);
