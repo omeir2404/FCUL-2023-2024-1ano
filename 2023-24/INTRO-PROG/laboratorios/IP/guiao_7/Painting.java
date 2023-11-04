@@ -1,5 +1,6 @@
 import java.awt.Color;
 
+
 /**
  * The Painting class implements some basic drawing primitives which depend on
  * the StdDraw class.
@@ -48,6 +49,7 @@ public class Painting {
         StdDraw.filledSquare(x, y, 0.5);
     }
 
+
     /**
      * Checks a mystery condition for a given point (x, y)
      *
@@ -71,8 +73,13 @@ public class Painting {
      * @param centerX Center x-coordinate of the mystery curve
      * @param centerY Center y-coordinate of the mystery curve
      */
-    public static void paintMystery(int dim, Color c, int centerX, int centerY) {
-        // TODO
+    public static void paintMystery(int dim, Color c, int centerX, int centerY){
+        for (int x = 0; x < dim; x++) {
+            for (int y = 0; y < dim; y++) {
+                if(isMystery(x, y, centerX, centerY))
+                    paintPixel(c, x, y);
+            }
+        }
     }
 
     /**
@@ -90,6 +97,11 @@ public class Painting {
         }
     }
 
+
+    public static boolean isInsideCircle(intx, int y, int radius, int centerX, int centerY){
+        int checkX = ;
+    }
+
     public static void main(String[] args) {
         int dim = 128;
         setCanvasSize(dim);
@@ -98,6 +110,7 @@ public class Painting {
         Color red = Color.red;
         drawLine(dim, red);
 
+        paintMystery(dim, Color.blue, 64, 64);
     }
 
 }

@@ -16,23 +16,22 @@ import java.util.Scanner;
 public class Triangles {
 
 	public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-		// receive the argument and parse to an int
-    System.out.print("Enter a positive integer: ");
-    int inputValue = input.nextInt();
-        if (inputValue <= 0) {
-            System.out.println("The number must be positive!");
-            System.exit(1);
-        }
+		Scanner input = new Scanner(System.in);
+		int inputValue = -1;
+		while (inputValue <= 0) {
+			System.out.print("Enter a positive integer: ");
+			inputValue = input.nextInt();
+			if (inputValue <= 0) {
+				System.out.println("The number must be positive!");
+			}
+		}
 
 		// tests the printing procedures
-		if (inputValue > 0) {
-			printIsoscelesTriangle(inputValue, '*');
-			System.out.print("\n");
+		printIsoscelesTriangle(inputValue, '*');
+		System.out.print("\n");
 
-			printIsoscelesTriangle(inputValue, 'X');
-			System.out.print("\n");
-		}
+		printIsoscelesTriangle(inputValue, 'X');
+		System.out.print("\n");
 	}
 
 	/**
