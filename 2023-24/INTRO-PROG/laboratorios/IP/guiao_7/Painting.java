@@ -98,8 +98,22 @@ public class Painting {
     }
 
 
-    public static boolean isInsideCircle(intx, int y, int radius, int centerX, int centerY){
-        int checkX = ;
+    public static boolean isInsideCircle(int x , int y, int radius, int centerX, int centerY){
+        int checkX =  (x - centerX) * (x - centerX);
+        int checkY =  (y - centerY) * (y - centerY);
+        if(checkX + checkY > radius * radius)
+            return false;
+        return true;
+    }
+
+    public static void paintCircle(int dim, Color c,int radius, int centerX, int centerY)
+    {
+        for (int x = 0; x < dim; x++) {
+            for (int y = 0; y < dim; y++) {
+                if(isInsideCircle(x, y, radius,centerX, centerY))
+                    paintPixel(c, x, y);
+            }
+        }
     }
 
     public static void main(String[] args) {
@@ -110,7 +124,7 @@ public class Painting {
         Color red = Color.red;
         drawLine(dim, red);
 
-        paintMystery(dim, Color.blue, 64, 64);
+        paintCircle(dim, Color.black, 32, 64, 64);
     }
 
 }
