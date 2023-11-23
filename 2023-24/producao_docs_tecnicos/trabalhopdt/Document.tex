@@ -3,10 +3,15 @@
 %\usepackage[portuguese]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
+\usepackage{hyperref}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{makeidx}
 \usepackage{graphicx}
+\usepackage{imakeidx}
+
+\makeindex
+
 \title{Viva Melhor}
 \author{Omeir Haroon 61810}
 \date{\today}
@@ -34,13 +39,13 @@
 \end{titlepage}
 
 
-\section{Introdução}
+
+\section{Introdução}\index{Introdução}
 	Seguro de saúde refere-se a um tipo de "proteção"
 que pessoas podem obter para ajudar a pagar por serviços médicos. É i,portante pois quem tem preocupa-se menos com os custos de assistência médica.
-Como indicado no website {\bfseries https://www.healthcare.gov/why-coverage-is-important}
-\begin{quotation}
-"No one plans to get sick or hurt, but most people need medical care at some point. Health insurance covers these costs and offers many other important benefits."
-\end{quotation}
+\begin{quote}
+    "No one plans to get sick or hurt, but most people need medical care at some point. Health insurance covers these costs and offers many other important benefits." \cite{healthcare}
+\end{quote}
 
 \begin{table}[h]
 	\centering
@@ -59,7 +64,7 @@ Como indicado no website {\bfseries https://www.healthcare.gov/why-coverage-is-i
 \end{table}
 \newpage
 
-\section{Caso de Estudo}
+\section{Caso de Estudo}\index{Caso de Estudo}
 \begin{quote}
 A Declaração Universal dos Direitos Humanos garante saúde e um nível de vida adequado. Em Portugal, o SNS é universal e frequentemente gratuito. Devido à demanda, a iniciativa privada oferece seguros de saúde. Nelson avalia três propostas de uma Companhia de Seguros, a serem registradas na tabela (exemplo: 61810).
 \end{quote}
@@ -104,7 +109,7 @@ A Declaração Universal dos Direitos Humanos garante saúde e um nível de vida
 \end{figure}
 
 \newpage
-\section{Conclusão}
+\section{Conclusão}\index{Conclusão}
 
 Após analisar as propostas dos seguros de saúde (A, B, C) para o senhor Nelson, algumas conclusões podem ser destacadas:
 
@@ -118,8 +123,14 @@ Após analisar as propostas dos seguros de saúde (A, B, C) para o senhor Nelson
 
 Em última análise, a decisão deve refletir as prioridades pessoais e a situação financeira. Recomenda-se que o senhor Nelson escolha o seguro C se pensa que nao vai precisar mais do 20 atos médicos anuais caso contrario deve escolher o seguro B que é mais barato relativamente.
 
-\section{Bibliografia}
 
+
+\section{Bibliografia}\index{Bibliografia}
+\begin{thebibliography}{9}
+    \bibitem{healthcare}
+    HealthCare.gov. "Why Coverage is Important." [Online]
+    Available: \url{https://www.healthcare.gov/why-coverage-is-important}
+\end{thebibliography}
 
 \printindex
 
