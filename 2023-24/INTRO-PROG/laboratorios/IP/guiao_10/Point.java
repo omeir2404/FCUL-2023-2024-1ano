@@ -42,7 +42,7 @@ public class Point {
 	 * @return the coordinate of the point in the X axis in double precision
 	 */
 	public double getX (){
-		return ((int)x%10);
+		return (x);
 	}
 
 	/**
@@ -51,7 +51,7 @@ public class Point {
 	 * @return The coordinate of the point in the Y axis.
 	 */
 	public double getY (){
-		return 0; //TODO: CHANGE ME
+		return y;
 	}
 
 	/**
@@ -62,7 +62,8 @@ public class Point {
 	 * @param dy Distance to Y axis
 	 */
 	public void translate (double dx, double dy){
-		//TODO
+		this.x += dx;
+		this.y += dy;
 	}
 	
 	/**
@@ -73,7 +74,8 @@ public class Point {
 	 * @ensures {@code getX() == x  && getY() == y }
 	 */
 	public void move (double x, double y){
-		//TODO
+		this.x = x;
+		this.y = y;
 	}
 
 	/**
@@ -85,7 +87,7 @@ public class Point {
 	 * @ensures {@code \result.getY() == this.getY()}
 	 */
 	public Point copy (){
-		return null; //TODO: CHANGE ME
+		return new Point(this.x, this.y);
 	}
 
 	/**
@@ -97,17 +99,19 @@ public class Point {
 	 * @ensures {@code \result >= 0} 
 	 **/
 	public double distance (Point otherPoint){
-		return 0; //TODO: CHANGE ME
+		double distance = Math.sqrt(Math.pow(this.x - otherPoint.x, 2) + Math.pow(this.y - otherPoint.y, 2));
+		
+		return distance;
 	}
 
 	/**
 	 * Returns a string representation of this point and its location 
 	 * in the coordinate space.
 	 * 
-	 * @return String representando este ponto
+	 * @return String representing this point
 	 */
 	public String toString (){
-		return null; //TODO: CHANGE ME
+		return "Point(" + this.x + ", " + this.y + ")";
 	}
 
 
@@ -120,7 +124,11 @@ public class Point {
 	 * @requires {@code  otherPoint1 != null && otherPoint2 != null}
 	 */
 	public boolean colinear(Point otherPoint1, Point otherPoint2){
-		return false; //TODO: CHANGE ME
+		double m1 = (otherPoint1.getY() - this.getY()) / (otherPoint1.getX() - this.getX());
+		double m2 = (otherPoint2.getY() - this.getY()) / (otherPoint2.getX() - this.getX());
+		
+		return m1 == m2;
 	}
+
 
 }
