@@ -1,1 +1,66 @@
-lol
+\documentclass{beamer}
+
+\title{Biblioteca do Conhecimento Online}
+\subtitle{b-ON Bibliote - Pedro Veiga}
+\author{Pedro Veiga}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Biblioteca do Conhecimento}
+  \begin{itemize}
+    \item A importância de ter acesso a artigos científicos
+    \item Artigos científicos e “peer-review”
+    \item Alguns objetivos do Projeto b-ON
+      \begin{itemize}
+        \item Aceder a mais revistas científicas
+        \item Aceder a conteúdos em formato digital
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Nota sobre Motores de Busca}
+  \begin{itemize}
+    \item Motores de busca generalistas como Google® e Yahoo®
+    \item Cuidado na seleção de conteúdo relevante
+    \item Falta de capacidade crítica pode levar a escolhas "desastrosas"
+    \item Capacidade de aceder ao conhecimento relevante e credível é fundamental
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{O que é a b-ON}
+  \begin{itemize}
+    \item Biblioteca do Conhecimento Online
+    \item Reúne principais editoras de revistas científicas internacionais
+    \item Oferece vasto conjunto de artigos científicos online
+    \item Acesso a mais de 16.700 títulos de publicações periódicas em texto integral
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{O Portal b-ON}
+  % Content for the Portal b-ON slide
+\end{frame}
+
+\begin{frame}{Notas sobre a b-ON}
+  \begin{itemize}
+    \item Acesso possível na rede da Universidade de Lisboa ou via VPN
+    \item Exclusivo para docentes, investigadores e estudantes da Universidade de Lisboa
+    \item Acesso às publicações em formato integral (PDF, geralmente)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Considerações Finais}
+  \begin{itemize}
+    \item Convergência Tecnológica trouxe revistas científicas para o mundo digital
+    \item Portal b-ON facilita pesquisa nas revistas em formato papel
+    \item Informação científica baseada em trabalhos selecionados com critérios rigorosos (peer-review)
+    \item Recurso fundamental para atividades de investigação e ensino avançado
+    \item Acesso facultado aos estudantes da UL
+    \item Respeitar direitos de cópia das publicações
+  \end{itemize}
+\end{frame}
+
+\end{document}
+
